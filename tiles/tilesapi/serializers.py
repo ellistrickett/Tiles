@@ -6,9 +6,9 @@ from .models import Tile
 class TileSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Tile
-        fields = ('title', 'launch_date', 'status')
+        fields = ('id', 'title', 'launch_date', 'status')
 
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Task
-        fields = ('title', 'order_field', 'description', 'type', 'tile')
+        fields = ('id', 'title', 'order_field', 'description', 'type', 'tile')
