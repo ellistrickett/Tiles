@@ -14,7 +14,8 @@ cd pollster
 python manage.py runserver
 ```
 ### Notes
-Decided to give Tile a title to make more user friendly. Could possibly of made the Launch Date inique instead.
+Decided to give Tile a title to make more user friendly. 
+Could possibly of made the Launch Date unique instead.
 Launch Date could of been a Date Time Field.
 Order Field maybe should of been a IntegerField.
 
